@@ -1,0 +1,5 @@
+@include('user.layouts.head')
+@include('user.layouts.header')
+@yield('content')
+@include('user.layouts.footer')
+@include('user.layouts.js')
